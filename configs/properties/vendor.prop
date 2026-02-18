@@ -324,3 +324,14 @@ ro.vendor.wifi.sap.interface=ap0
 ro.vendor.wlan.chrdev=wmt_chrdev_wifi
 ro.vendor.wlan.gen=gen4m_6789
 
+# Smooth display
+ro.surface_flinger.set_idle_timer_ms=1200
+debug.sf.set_idle_timer_ms=1200
+sys.surfaceflinger.idle_reduce_framerate_enable=yes
+ro.surface_flinger.set_touch_timer_ms=1200
+ro.vendor.display.idle_fps=60
+ro.vendor.disable_idle_fps.threshold=328
+ro.vendor.display.is_standard_mode=true
+ro.vendor.display.touch.idle.enable=true
+ro.vendor.idle_fps=60
+vendor.display.idle_time=1200
