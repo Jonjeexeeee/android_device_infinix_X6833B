@@ -134,6 +134,9 @@ persist.sys.fuse.passthrough.enable=true
 # Gatekeeper
 ro.hardware.gatekeeper=trustonic
 
+# Gestural
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.google.android.systemui.gxoverlay
+
 # GNSS
 ro.vendor.gps.chrdev=gps_drv_stp
 ro.vendor.mtk_agps_app=1
