@@ -310,12 +310,12 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
-    FrameworkResOverlayRozen \
-    SettingsResOverlayRozen \
-    SettingsProviderOverlayRozen \
-    SystemUIResOverlayRozen \
-    TetheringResOverlayRozen \
-    WifiResOverlayRozen
+    FrameworkResOverlayWaves \
+    SettingsResOverlayWaves \
+    SettingsProviderOverlayWaves \
+    SystemUIResOverlayWaves \
+    TetheringResOverlayWaves \
+    WifiResOverlayWaves
 
 # Lineage-Specific Overlays
 PRODUCT_PACKAGES += \
@@ -529,4 +529,4 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/tecno/LH7n/LH7n-vendor.mk)
+$(call inherit-product, vendor/infinix/X6833B/X6833B-vendor.mk)
