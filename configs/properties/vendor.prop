@@ -314,7 +314,6 @@ ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.uclamp.min=328
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
-
 # TEE
 ro.vendor.mtk_svp_on_mtee_support=2
 ro.vendor.mtk_trustonic_tee_support=1
@@ -324,3 +323,4 @@ ro.vendor.wifi.sap.concurrent.iface=ap1
 ro.vendor.wifi.sap.interface=ap0
 ro.vendor.wlan.chrdev=wmt_chrdev_wifi
 ro.vendor.wlan.gen=gen4m_6789
+
