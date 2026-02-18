@@ -25,6 +25,9 @@ ro.vendor.bt.platform=connac1x
 ro.vendor.mtk.bt_sap_enable=true
 vendor.bluetooth.ldac.abr=true
 
+# Blur
+ro.launcher.blur.appLaunch=1
+
 # Camera
 camera.disable_zsl_mode=1
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
